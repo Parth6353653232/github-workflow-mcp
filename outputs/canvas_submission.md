@@ -4,7 +4,7 @@
 
 | GitHub link | Domain choice | Two implemented best practices |
 | --- | --- | --- |
-| `https://github.com/YOUR-USERNAME/github-workflow-mcp` | Development Workflow | Input sanitization; rate limiting |
+| `https://github.com/Parth6353653232/github-workflow-mcp` | Development Workflow | Input sanitization; rate limiting |
 
 ## Architecture diagram
 
