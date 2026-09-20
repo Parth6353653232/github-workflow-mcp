@@ -1,0 +1,13 @@
+[project]
+name = "github-workflow-mcp"
+version = "0.1.0"
+description = "A secure, read-only GitHub development-workflow MCP server"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=2.0,<3.0",
+    "python-dotenv>=1.0,<2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

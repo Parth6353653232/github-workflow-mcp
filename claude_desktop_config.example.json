@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "github-workflow": {
+      "command": "/ABSOLUTE/PATH/TO/github-workflow-mcp/.venv/bin/python",
+      "args": ["/ABSOLUTE/PATH/TO/github-workflow-mcp/github_workflow_mcp/server.py"],
+      "env": {
+        "GITHUB_TOKEN": "paste_a_fine_grained_read_only_token_here"
+      }
+    }
+  }
+}

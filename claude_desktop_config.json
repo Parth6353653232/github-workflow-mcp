@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "github-workflow": {
+      "command": "/Users/parthchandak/Documents/Codex/2026-09-20/this-course-involves-a-lot-of-2/.venv/bin/python",
+      "args": [
+        "-m",
+        "github_workflow_mcp.server"
+      ]
+    }
+  }
+}

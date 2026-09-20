@@ -1,0 +1,2 @@
+"""GitHub Workflow MCP package."""
+
