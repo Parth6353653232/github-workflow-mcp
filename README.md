@@ -53,7 +53,7 @@ Try `get_repository_overview` with `octocat/Hello-World`, and `search_open_issue
 
 ## Claude Desktop configuration
 
-`claude_desktop_config.json` is the complete configuration for this workspace. Copy its `github-workflow` server object into Claude Desktop's MCP configuration location. It starts the server as a Python module and relies on the project-local `.env`, so the token is not duplicated in Claude Desktop's settings. If you relocate the repository, use `claude_desktop_config.example.json` as a template and replace the absolute paths. Restart Claude Desktop after saving.
+`claude_desktop_config.json` is the complete configuration for this workspace. Copy its `github-workflow` server object into Claude Desktop's MCP configuration location. It starts the server as a Python module and supplies the project import path; the project-local `.env` supplies the token, so it is not duplicated in Claude Desktop's settings. If you relocate the repository, use `claude_desktop_config.example.json` as a template and replace the absolute paths. Restart Claude Desktop after saving.
 
 Example with this workspace's current location:
 
