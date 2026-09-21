@@ -1,5 +1,6 @@
 .venv/
 work/
+outputs/
 __pycache__/
 .pytest_cache/
 .env
